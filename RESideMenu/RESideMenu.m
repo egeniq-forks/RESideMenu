@@ -199,7 +199,7 @@
     }
     
     self.contentViewContainer.frame = self.view.bounds;
-    self.contentViewContainer.backgroundColor = [UIColor redColor];
+    self.contentViewContainer.backgroundColor = [UIColor blackColor];
     self.contentViewContainer.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
     [self addChildViewController:self.contentViewController];
